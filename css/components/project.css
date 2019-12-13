@@ -1,1 +1,8 @@
-project.css
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+   height: 100px;
+}

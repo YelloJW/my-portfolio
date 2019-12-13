@@ -1,1 +1,8 @@
-section.css
+.section {
+  border-top: black;
+  border-bottom: black;
+  height: 100vh;
+  width: 100%;
+  background-image: white;
+  border-radius: 10%;
+}
