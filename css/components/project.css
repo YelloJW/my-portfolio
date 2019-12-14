@@ -1,8 +1,60 @@
 .project {
+  width: 90%;
+  text-align: center;
   display: flex;
   flex-direction: column;
+/*  background: rgba(255, 255, 255, 0.1);
+*/  padding: 3%;
 }
 
-.project-card img {
-   height: 100px;
+.project-card {
+  display: flex;
+  overflow-x: scroll;
+  padding-top:5px;
+  height: 400px;
+  margin: 2%;
+}
+
+.project-card-item {
+   margin-right:5% ;
+   position: relative;
+}
+
+.project-card-item img {
+   height: 300px;
+   transition: 2s;
+}
+
+.project-card-item img:hover {
+   height: 325px;
+   transition: 1s;
+}
+
+.card-info-onclick {
+  align-items: center;
+  padding:5px;
+  background: rgba(255, 255, 255, 0.85) ;
+  height: 300px;
+  position: absolute;
+  top:0%;
+  width: 100%;
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.hidden {
+  display: none;
 }
