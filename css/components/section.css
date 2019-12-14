@@ -1,8 +1,21 @@
 .section {
-  border-top: black;
-  border-bottom: black;
-  height: 100vh;
-  width: 100%;
-  background-image: white;
-  border-radius: 10%;
+/*  height: 100vh;
+*/  width: 100%;
+  background-image:
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+  url('../../images/cool-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    overflow-x: hidden;
+
 }
+
+.section h2 {
+  padding-top: 20px;
+}
+
+
