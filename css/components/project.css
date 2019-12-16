@@ -1,8 +1,7 @@
 .project {
   width: 80%;
 /*  background: rgba(255, 255, 255, 0.1);
-*/  padding: 2% 2% 2% 2%;
-  margin-bottom: 5%;
+*/padding: 1% 1% 1% 1%;
   border-radius:10px;
 }
 
@@ -12,10 +11,14 @@
 
 .project-title {
   text-align: left;
-  color: #777777;
+  color: #14737F;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   letter-spacing: 1.5px;
+}
+
+.project-title i {
+  color: black;
 }
 
 .project-content {
@@ -32,6 +35,7 @@
 }
 
 .project-examples {
+  width: 70%;
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
@@ -46,11 +50,13 @@
 .project-examples:hover > * {
   transform: scale(0.8);
   opacity: 0.5;
+  transition: 0.5s;
 }
 
 .project-examples:hover > *:hover {
   transform: scale(1.2);
   opacity: 1;
+  transition: 0.5s;
 }
 
 .project-examples-item {
@@ -58,7 +64,6 @@
    position: relative;
    color: grey;
    transition: 1s;
-
 }
 
 .project-examples-item img {
@@ -66,8 +71,10 @@
    transition: 1s;
 }
 
-.project-examples-item img:hover {
-   transition: 0.25s;
+.project-examples-item .nomad-img {
+   height: 200px;
+   width: 350px;
+   transition: 1s;
 }
 
 .card-info-onclick {
