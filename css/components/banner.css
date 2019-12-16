@@ -38,7 +38,7 @@
   transform: translate(-20%);
   transition: transform 1s 0.2s cubic-bezier(0,0,1,1);
   will-change: transform;
-    letter-spacing: 1.5px;
+  letter-spacing: 1.5px;
 
 }
 
