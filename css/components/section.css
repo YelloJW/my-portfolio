@@ -9,6 +9,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -22,7 +23,6 @@
   transition: transform 1s 0s cubic-bezier(0.2,1,0.2,2);
   will-change: transform;
   letter-spacing: 1.5px;
-
 }
 
 .is-visible.section-titles {
@@ -39,7 +39,17 @@
 }
 
 .down-arrow:hover {
+  opacity:1;
+  transition: 0.5s;
+}
+
+.down-arrow-body {
+  color: #14737F;
   font-size: 40px;
+  opacity:0.4;
+}
+
+.down-arrow-body:hover {
   opacity:1;
   transition: 0.5s;
 }
