@@ -10,7 +10,7 @@
 
 .is-visible.project {
   opacity: 1;
-  transition: 1.5s;
+  transition: 1s;
 }
 
 .project > p {
@@ -95,6 +95,10 @@
   top:0%;
   width: 100%;
   font-size: 10px;
+}
+
+.card-info-onclick:hover {
+  display: block;
 }
 
 ::-webkit-scrollbar {
