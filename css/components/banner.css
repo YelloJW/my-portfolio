@@ -13,6 +13,11 @@
   color: white;
 }
 
+.banner p {
+  padding-top: 1%;
+  letter-spacing: 2px;
+}
+
 .myname {
   opacity: 0.2;
   transform: translate(20%);
@@ -41,4 +46,16 @@
   opacity: 1;
   transition: 2s;
   transform: translate(0px);
+}
+
+.contact-icons {
+  text-decoration: none;
+  padding: 3px;
+  color: white;
+}
+
+.contact-icons:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
 }
