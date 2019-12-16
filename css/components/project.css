@@ -64,6 +64,7 @@
    position: relative;
    color: grey;
    transition: 1s;
+   box-shadow: 0px 0px 10px #CDCDCD;
 }
 
 .project-examples-item img {
