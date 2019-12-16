@@ -14,7 +14,8 @@
 }
 
 .section-titles {
-  padding: 30px;
+  margin-top: 5px;
+  padding: 20px;
   color: #14737F;
   transform: translateY(20px);
   transition: transform 1s 0s cubic-bezier(0.2,1,0.2,2);

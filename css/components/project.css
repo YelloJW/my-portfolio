@@ -1,12 +1,7 @@
 .project {
-  width: 60%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: justify;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 2% 3% 2% 3%;
+  width: 80%;
+/*  background: rgba(255, 255, 255, 0.1);
+*/  padding: 2% 2% 2% 2%;
   margin-bottom: 5%;
   border-radius:10px;
 }
@@ -15,45 +10,69 @@
   color: #14737F;
 }
 
-.project-titles {
-  text-align: center;
+.project-title {
+  text-align: left;
   color: #777777;
   font-size: 20px;
-  padding-bottom:10px;
   margin-bottom: 20px;
   letter-spacing: 1.5px;
 }
 
-.project-card {
-  align-self: center;
-  width: 100%;
+.project-content {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project-description {
+  width: 30%;
+  text-align: justify;
+  margin-top: 1%;
+}
+
+.project-examples {
+  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top:5px;
-  margin: 3%;
+  pointer-events: none;
+  margin-left:5%;
 }
 
-.project-card-item {
-   margin:1%;
+.project-examples > * {
+  pointer-events: auto;
+}
+
+.project-examples:hover > * {
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+
+.project-examples:hover > *:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.project-examples-item {
+   margin: 2%;
    position: relative;
    color: grey;
+   transition: 1s;
+
 }
 
-.project-card-item img {
+.project-examples-item img {
    height: 250px;
    transition: 1s;
 }
 
-.project-card-item img:hover {
-   height: 270px;
-   transition: 0.5s;
+.project-examples-item img:hover {
+   transition: 0.25s;
 }
 
 .card-info-onclick {
   text-align: left;
   align-items: center;
-  padding:5px;
   background: rgba(255, 255, 255, 0.9) ;
   height: 250px;
   position: absolute;
