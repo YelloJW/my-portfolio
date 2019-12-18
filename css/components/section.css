@@ -44,6 +44,22 @@
 }
 
 .down-arrow-body {
+  opacity:0;
+}
+
+.down-arrow-body:hover {
+  opacity:0;
+}
+
+.page-labels {
+  text-align: center;
+  margin-bottom: 2px;
+  font-size: 11px;
+  color: #14737F;
+}
+
+@media (min-width: 1200px) {
+  .down-arrow-body {
   color: #14737F;
   font-size: 40px;
   opacity:0.8;
@@ -53,10 +69,4 @@
   opacity:1;
   transition: 0.5s;
 }
-
-.page-labels {
-  text-align: center;
-  margin-bottom: 2px;
-  font-size: 11px;
-  color: #14737F;
 }
