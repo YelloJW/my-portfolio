@@ -20,32 +20,22 @@
 
 .myname {
   opacity: 0.2;
-  transform: translate(20%);
-  transition: transform 1s 0.2s cubic-bezier(0.5,1,1,1);
-  will-change: transform;
-    letter-spacing: 1.5px;
-
+  letter-spacing: 1.5px;
 }
 
 .is-visible.myname {
   opacity: 1;
-  transition: 2s;
-  transform: translate(0px);
+  transition: 3s;
 }
 
 .myoccupation {
   opacity: 0.2;
-  transform: translate(-20%);
-  transition: transform 1s 0.2s cubic-bezier(0,0,1,1);
-  will-change: transform;
   letter-spacing: 1.5px;
-
 }
 
 .is-visible.myoccupation {
   opacity: 1;
-  transition: 2s;
-  transform: translate(0px);
+  transition: 3s;
 }
 
 .contact-icons {
@@ -59,3 +49,36 @@
   color: white;
   opacity: 0.6;
 }
+
+@media (min-width: 400px) {
+  .myname {
+    opacity: 0.2;
+    transform: translate(20%);
+    transition: transform 1s 0.2s cubic-bezier(0.5,1,1,1);
+    will-change: transform;
+      letter-spacing: 1.5px;
+
+  }
+
+  .is-visible.myname {
+    opacity: 1;
+    transition: 2s;
+    transform: translate(0px);
+  }
+
+  .myoccupation {
+    opacity: 0.2;
+    transform: translate(-20%);
+    transition: transform 1s 0.2s cubic-bezier(0,0,1,1);
+    will-change: transform;
+    letter-spacing: 1.5px;
+
+  }
+
+  .is-visible.myoccupation {
+    opacity: 1;
+    transition: 2s;
+    transform: translate(0px);
+  }
+}
+
