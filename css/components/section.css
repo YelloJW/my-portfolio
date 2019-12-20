@@ -16,7 +16,6 @@
 }
 
 .section-titles {
-  margin-top: px;
   padding: 10px;
   color: #14737F;
   transform: translateY(20px);
@@ -44,6 +43,23 @@
 }
 
 .down-arrow-body {
+  opacity:0;
+}
+
+.down-arrow-body:hover {
+  opacity:0;
+}
+
+.page-labels {
+  text-align: center;
+  margin-bottom: 2px;
+  font-size: 11px;
+  color: #14737F;
+  opacity:0;
+}
+
+@media (min-width: 1200px) {
+  .down-arrow-body {
   color: #14737F;
   font-size: 40px;
   opacity:0.8;
@@ -55,8 +71,6 @@
 }
 
 .page-labels {
-  text-align: center;
-  margin-bottom: 2px;
-  font-size: 11px;
-  color: #14737F;
+  opacity:1;
+  }
 }
