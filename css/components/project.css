@@ -21,8 +21,8 @@
 
 .project-title {
   text-align: left;
-  color: #14737F;
-  font-size: 26px;
+  color: black;
+  font-size: 24px;
   margin-bottom: 15px;
   letter-spacing: 1.5px;
 }
@@ -87,7 +87,6 @@
   opacity:0;
   padding: 5%;
   transition: 1s;
-  text-align: justify;
   align-items: center;
   background: rgba(75, 75, 75, 0.9);
   color: white;
