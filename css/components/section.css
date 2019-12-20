@@ -16,7 +16,6 @@
 }
 
 .section-titles {
-  margin-top: px;
   padding: 10px;
   color: #14737F;
   transform: translateY(20px);
@@ -56,6 +55,7 @@
   margin-bottom: 2px;
   font-size: 11px;
   color: #14737F;
+  opacity:0;
 }
 
 @media (min-width: 1200px) {
@@ -69,4 +69,8 @@
   opacity:1;
   transition: 0.5s;
 }
+
+.page-labels {
+  opacity:1;
+  }
 }
